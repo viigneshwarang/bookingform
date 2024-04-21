@@ -1,0 +1,33 @@
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Ensure items are stacked vertically */
+  height: 100vh;
+}
+
+.bike-model-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.detail-box {
+  border: 1px solid #007bff; /* Blue border color */
+  background-color: #f0f0f0; /* Light gray background color */
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px; /* Adjust as needed */
+}
+
+.detail-box p {
+  margin: 5px 0;
+}
+
+.detail-box.selected {
+  order: -1; /* Move the selected box to the top */
+}
+
+/* Style for radio button labels */
+label {
+  margin-right: 10px;
+}
